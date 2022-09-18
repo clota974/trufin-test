@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.hash-input {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Message {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.Message.message-error {
+  border-color: #f44336;
+  background-color: #ff8d85;
+  color: #fff;
+}
+.Message.message-success {
+  border-color: #4caf50;
+  background-color: #8bc34a;
+  color: #fff;
+}
+.Message.message-warning {
+  border-color: #ffbf00;
+  background-color: #ffea00;
+  color: #fff;
+}
